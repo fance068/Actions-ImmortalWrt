@@ -38,7 +38,7 @@ git clone https://github.com/Ljzkirito/shadowsocks-rust feeds/packages/net/shado
 rm -rfv feeds/packages/net/adguardhome
 git clone https://github.com/Ljzkirito/adguardhome-openwrt feeds/packages/net/adguardhome
 
-sed -i 's/192.168.1.1/192.168.5.1/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/10.10.28.1/g' package/base-files/files/bin/config_generate
 
 #git clone --depth=1 -b master https://github.com/fw876/helloworld
 #Replace_package="xray-core xray-plugin v2ray-core v2ray-plugin hysteria ipt2socks microsocks redsocks2 chinadns-ng dns2socks dns2tcp naiveproxy simple-obfs tcping tuic-client"
